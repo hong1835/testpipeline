@@ -1,6 +1,6 @@
 param policyName string = 'Deny-Public-IP'
 param policyDisplayName string = 'Deny Public IP'
-param scope string = '/subscriptions/YOUR_SUBSCRIPTION_ID'
+param scope string = '/subscriptions/9c52dd72-7727-47a6-9854-4004f128313c'
 
 resource policyDefinition 'Microsoft.Authorization/policyDefinitions@2021-06-01' = {
   name: policyName
